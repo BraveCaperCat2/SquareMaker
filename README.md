@@ -1,15 +1,15 @@
-# WordSquares
-A simple C++ solver for dense word grids.
+# SquareMaker
+A C++ "Square Making" program using defined rules and other parameters.
 
-See this [YouTube Video](https://youtu.be/zWIsnrxL-Zc) for the best explanation.
-
-**NOTE:** This repository is not actively maintained and is for reference only.
+A fork of "WordSquares" by CodeParade. For word-based squares, [this video](https://youtu.be/zWIsnrxL-Zc) made by the original creator is a great explanation.
 
 ## Usage
-To use this solver, you'll need a list of valid words and a word frequency list. If you'd like to use the same files as shown in the video, download links are provided below.
+To use this solver, you'll need the following:
+- A list of valid characters - For instance, this could be the alphabet or digits. It can even include special characters.
+- A rule-set - Any set of rules to determine whether a row/column is valid. This can be a list of valid words, a condition for everything to sum to the same value or any other short condition. Examples for making Word Squares and Magic Squares are provided.
+- A size - Any 2 numbers. For squares, the height and width should be the same.
 
-[Scrabble Words List](https://raw.githubusercontent.com/andrewchen3019/wordle/refs/heads/main/Collins%20Scrabble%20Words%20(2019).txt)
-
-[NGram Viewer Frequencies](https://www.kaggle.com/datasets/wheelercode/dictionary-word-frequency)
-
-You'll need to update the `DICTIONARY` and `FREQ_FILTER` paths to reference these files. These and other parameters are found on the top of `main.cpp`. Modify these to try different kinds of word grids. Basic documentation is provided in this file.
+## Note
+This project is still a WIP. (Work In Progress)
+It isn't complete at this time.
+Current Status: No changes from "WordSquares", current usage instructions and description are incorrect for this version.
